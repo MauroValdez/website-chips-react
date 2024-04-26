@@ -52,7 +52,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-img, video, svg {
+img, video {
   display: block;
   height: auto;
   max-width: 100%;
@@ -105,3 +105,4 @@ ul {
 .main {
   overflow: hidden;
 }
+
