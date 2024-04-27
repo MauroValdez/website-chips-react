@@ -3,8 +3,8 @@ import '@fontsource/poppins/600.css'
 import '@fontsource/titan-one'
 import './App.css'
 
-import Header from './components/Header'
-import Home from './components/Home'
+import Header from './layouts/Header'
+import Home from './layouts/Home'
 
 function App() {
   return (
