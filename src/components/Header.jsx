@@ -5,6 +5,7 @@ import { Facebook, Instagram, Twitter } from '../assets/icon/social'
 
 function Header() {
   const [hasClass, setHasClass] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   const handleAddClass = () => {
     setHasClass(true)
@@ -13,9 +14,18 @@ function Header() {
   const handleRemoveClass = () => {
     setHasClass(false)
   }
+
+  function NavBar() {
+    if (window.scrollY >= 50) {
+      setShadow(true)
+    } else {
+      setShadow(false)
+    }
+  }
+  window.addEventListener('scroll', NavBar)
   return (
     <>
-      <header className="header" id="header">
+      <header className={`header ${shadow ? 'shadow-header' : ''}`} id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
             CHIPS
@@ -27,27 +37,47 @@ function Header() {
           >
             <ul className="nav__list">
               <li>
-                <a href="#home" className="nav__link" onClick={handleRemoveClass}>
+                <a
+                  href="#home"
+                  className="nav__link"
+                  onClick={handleRemoveClass}
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="#favorites" className="nav__link" onClick={handleRemoveClass}>
+                <a
+                  href="#favorites"
+                  className="nav__link"
+                  onClick={handleRemoveClass}
+                >
                   Favorites
                 </a>
               </li>
               <li>
-                <a href="#care" className="nav__link" onClick={handleRemoveClass}>
+                <a
+                  href="#care"
+                  className="nav__link"
+                  onClick={handleRemoveClass}
+                >
                   Care
                 </a>
               </li>
               <li>
-                <a href="#products" className="nav__link" onClick={handleRemoveClass}>
+                <a
+                  href="#products"
+                  className="nav__link"
+                  onClick={handleRemoveClass}
+                >
                   Products
                 </a>
               </li>
               <li>
-                <a href="#contact" className="nav__link" onClick={handleRemoveClass}>
+                <a
+                  href="#contact"
+                  className="nav__link"
+                  onClick={handleRemoveClass}
+                >
                   Contact
                 </a>
               </li>
