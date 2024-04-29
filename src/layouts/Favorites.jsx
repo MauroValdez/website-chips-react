@@ -88,9 +88,46 @@ export default function Favorites() {
                   className="favorite__leaf-2"
                 />
               </SwiperSlide>
+              
+              <SwiperSlide className="favorite__article">
+                <img
+                  src="./src/assets/webp/favorite-chips-1.webp"
+                  alt="chips img"
+                  className="favorite__img"
+                />
+
+                <img
+                  src="./src/assets/webp/leaf-1.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-1"
+                />
+                <img
+                  src="./src/assets/webp/leaf-2.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-2"
+                />
+              </SwiperSlide>
               <SwiperSlide className="favorite__article">
                 <img
                   src="./src/assets/webp/favorite-chips-2.webp"
+                  alt="chips img"
+                  className="favorite__img"
+                />
+
+                <img
+                  src="./src/assets/webp/leaf-1.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-1"
+                />
+                <img
+                  src="./src/assets/webp/leaf-2.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-2"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="favorite__article">
+                <img
+                  src="./src/assets/webp/favorite-chips-3.webp"
                   alt="chips img"
                   className="favorite__img"
                 />
