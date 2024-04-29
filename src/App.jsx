@@ -8,6 +8,7 @@ import Home from './layouts/Home'
 import Favorites from './layouts/Favorites'
 import Care from './layouts/Care'
 import Banner from './layouts/Banner'
+import Products from './layouts/Products'
 function App() {
     return (
         <>
@@ -17,6 +18,7 @@ function App() {
                 <Favorites />
                 <Care />
                 <Banner />
+                <Products />
             </main>
             <section className="section"></section>
             <section className="section"></section>
