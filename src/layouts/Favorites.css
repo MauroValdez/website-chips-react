@@ -31,12 +31,16 @@ transform: scaleX(-1) rotate(45deg);
 }
 .favorite__img {
   width: 200px;
+  scale: .8;
+  transition: scale .4s, filter .4s;
 }
 .favorite__leaf-1,
 .favorite__leaf-2 {
   width: 70px;
   position: absolute;
   filter: var(--shadow-img);
+  scale: 0;
+  transition: scale .2s .1s;
 }
 .favorite__leaf-1 {
   top: -1rem;
@@ -45,4 +49,16 @@ transform: scaleX(-1) rotate(45deg);
 .favorite__leaf-2 {
   bottom: -1rem;
   left: -.5rem;
+}
+.swiper {
+  margin-inline: initial;
+  overflow:  visible;
+}
+:is(.swiper-slide-active,  .swiper-slide-duplicate-active) .favorite__img {
+  scale: 1;
+  filter: var(--shadow-img);
+}
+:is(.swiper-slide-active,  .swiper-slide-duplicate-active) .favorite__leaf-1,
+:is(.swiper-slide-active,  .swiper-slide-duplicate-active) .favorite__leaf-2 {
+  scale: 1;
 }

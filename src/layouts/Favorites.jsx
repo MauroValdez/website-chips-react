@@ -1,4 +1,10 @@
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// Import Swiper styles
+import 'swiper/css'
 import './Favorites.css'
+
 export default function Favorites() {
   return (
     <>
@@ -22,8 +28,13 @@ export default function Favorites() {
             />
           </div>
           <div className="favorite__swiper">
-            <div>
-              <article className="favorite__article">
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={'auto'}
+              centeredSlides={'auto'}
+              loop={true}
+            >
+              <SwiperSlide className="favorite__article">
                 <img
                   src="./src/assets/webp/favorite-chips-1.webp"
                   alt="chips img"
@@ -40,8 +51,8 @@ export default function Favorites() {
                   alt="leaf img"
                   className="favorite__leaf-2"
                 />
-              </article>
-              <article className="favorite__article">
+              </SwiperSlide>
+              <SwiperSlide className="favorite__article">
                 <img
                   src="./src/assets/webp/favorite-chips-2.webp"
                   alt="chips img"
@@ -58,8 +69,8 @@ export default function Favorites() {
                   alt="leaf img"
                   className="favorite__leaf-2"
                 />
-              </article>
-              <article className="favorite__article">
+              </SwiperSlide>
+              <SwiperSlide className="favorite__article">
                 <img
                   src="./src/assets/webp/favorite-chips-3.webp"
                   alt="chips img"
@@ -76,8 +87,26 @@ export default function Favorites() {
                   alt="leaf img"
                   className="favorite__leaf-2"
                 />
-              </article>
-            </div>
+              </SwiperSlide>
+              <SwiperSlide className="favorite__article">
+                <img
+                  src="./src/assets/webp/favorite-chips-2.webp"
+                  alt="chips img"
+                  className="favorite__img"
+                />
+
+                <img
+                  src="./src/assets/webp/leaf-1.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-1"
+                />
+                <img
+                  src="./src/assets/webp/leaf-2.webp"
+                  alt="leaf img"
+                  className="favorite__leaf-2"
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </section>
