@@ -1,6 +1,6 @@
 # Responsive Chips Website
-## [Watch it on youtube](https://youtu.be/vcb-cEkE-UI)
-### Responsive Chips Website
+
+## Responsive Chips Website
 
 - Responsive Chips Website Design Using HTML CSS And JavaScript
 - Contains animations when scrolling.

@@ -1,7 +1,6 @@
 import './Home.css'
 
 function Home() {
-
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
