@@ -6,6 +6,7 @@ import './App.css'
 import Header from './layouts/Header'
 import Home from './layouts/Home'
 import Favorites from './layouts/Favorites'
+import Care from './layouts/Care'
 function App() {
     return (
         <>
@@ -13,6 +14,7 @@ function App() {
             <main className="main">
                 <Home />
                 <Favorites />
+                <Care />
             </main>
             <section className="section"></section>
             <section className="section"></section>
