@@ -1,5 +1,10 @@
 import './Contact.css'
 
+import ContactMan from '/src/assets/webp/contact-man.webp'
+import Shrimp from '/src/assets/webp/shrimp.webp'
+import Crab from '/src/assets/webp/crab.webp'
+import Meat from '/src/assets/webp/meat.webp'
+
 function Contact() {
   return (
     <>
@@ -76,28 +81,12 @@ function Contact() {
                 </address>
               </div>
             </div>
-            <img
-              src="./src/assets/webp/contact-man.webp"
-              alt="contact man"
-              className="contact__img"
-            />
+            <img src={ContactMan} alt="contact man" className="contact__img" />
           </div>
 
-          <img
-            src="./src/assets/webp/shrimp.webp"
-            alt="img"
-            className="contact__shrimp"
-          />
-          <img
-            src="./src/assets/webp/crab.webp"
-            alt="img"
-            className="contact__crab"
-          />
-          <img
-            src="./src/assets/webp/meat.webp"
-            alt="img"
-            className="contact__meat"
-          />
+          <img src={Shrimp} alt="img" className="contact__shrimp" />
+          <img src={Crab} alt="img" className="contact__crab" />
+          <img src={Meat} alt="img" className="contact__meat" />
         </div>
       </section>
     </>

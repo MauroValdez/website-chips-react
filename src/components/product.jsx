@@ -5,7 +5,7 @@ function Product({ img, title, subtitle, price }) {
     <>
       <article className="products__card">
         <img
-          src={`./src/assets/webp/${img}`}
+          src={img}
           alt="product chip img"
           className="products__img"
         />

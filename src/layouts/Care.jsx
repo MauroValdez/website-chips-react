@@ -1,6 +1,5 @@
-
+import CareImg from '/./src/assets/webp/care-chips.webp'
 import './Care.css'
-
 export default function Care() {
   return (
     <>
@@ -9,34 +8,34 @@ export default function Care() {
         <div className="care__container container grid">
           <ul className="care__list">
             <li className="care__item">
-              
               <p>
                 The potatoes that are made into snacks are grown and harvested
                 and are 100% organic.
               </p>
             </li>
             <li className="care__item">
-              
               <p>
                 We fry the fries with vegetable and natural oil for good care.
               </p>
             </li>
             <li className="care__item">
-              
               <p>
                 The potatoes are not processed, once cleaned they are cooked
                 without preservatives.
               </p>
             </li>
             <li className="care__item">
-              
               <p>They contain fewer calories and less fat for good health.</p>
             </li>
           </ul>
-          <img src="./src/assets/webp/care-chips.webp" alt="care chips img" className="care__img" loading='lazy' />
+          <img
+            src={CareImg}
+            alt="care chips img"
+            className="care__img"
+            loading="lazy"
+          />
         </div>
       </section>
     </>
   )
 }
-
