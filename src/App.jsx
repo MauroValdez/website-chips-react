@@ -9,6 +9,7 @@ import Favorites from './layouts/Favorites'
 import Care from './layouts/Care'
 import Banner from './layouts/Banner'
 import Products from './layouts/Products'
+import Contact from './layouts/Contact'
 function App() {
     return (
         <>
@@ -19,6 +20,7 @@ function App() {
                 <Care />
                 <Banner />
                 <Products />
+                <Contact />
             </main>
             <section className="section"></section>
             <section className="section"></section>

@@ -105,8 +105,7 @@ https://m.me/bedimcode
 mailto:examplemail@correo.com
 
 .contact__info
-+00-987-7654-321 <br>
-+11-012345
++00-987-7654-321 - +11-012345
 
 Lima - Sun City - Peru <br>
 Av. Moon #4321
