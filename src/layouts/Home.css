@@ -152,3 +152,9 @@
     width: 100px;
   }
 }
+@media screen and (min-width: 1300px){
+.home__meat {
+    top: 8rem;
+    right: 3rem;
+  }
+}
