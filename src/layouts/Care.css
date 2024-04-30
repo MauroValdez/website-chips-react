@@ -16,10 +16,28 @@
 }
 .care__item svg {
   color: var(--second-color);
-  width:  2rem;
+  width: 2rem;
 }
 .care__img {
   width: 320px;
   filter: var(--shadow-img);
   justify-self: center;
+}
+@media screen and (min-width: 540px) {
+  .care__container {
+    grid-template-columns: 370px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .care__container {
+    grid-template-columns: 500px 400px;
+    column-gap: 6rem;
+    align-items: center;
+    padding-block: 4rem;
+  }
+  .care__img {
+    width: 550px;
+    order: -1;
+  }
 }

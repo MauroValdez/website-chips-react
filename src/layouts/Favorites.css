@@ -62,3 +62,45 @@ transform: scaleX(-1) rotate(45deg);
 :is(.swiper-slide-active,  .swiper-slide-duplicate-active) .favorite__leaf-2 {
   scale: 1;
 }
+@media screen and (max-width: 340px){}
+@media screen and (min-width: 540px){
+  .favorite__container {
+    grid-template-columns: 370px;
+    justify-content: center;
+  }
+  .favorite__swiper {
+    max-width: 600px;
+    overflow-x: clip;
+    justify-self: center;
+  }
+  .favorite__cheese-1 {
+    top: 1rem;
+  }
+}
+@media screen and (min-width: 1150px){
+  .favorite__container {
+    grid-template-columns: 520px;
+    row-gap: 4rem;
+  }
+  .favorite__cheese-1,
+  .favorite__cheese-2 {
+    width: 80px;
+  }
+  .favorite__cheese-1 {
+    right: -6rem;
+  }
+  .favorite__cheese-2{
+    left: -7rem;
+  }
+  .favorite__swiper {
+    max-width: 1200px;
+  }
+  .favorite__article,
+  .favorite__img {
+    width: 320px;
+  }
+  .favorite__leaf-1,
+  .favorite__leaf-2 {
+    width: 100px;
+  }
+}

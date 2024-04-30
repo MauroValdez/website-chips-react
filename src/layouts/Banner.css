@@ -20,3 +20,22 @@
 .banner__item span {
   font: var(--small-font-size) var(--second-font);
 }
+@media screen and (min-width: 540px){
+  .banner__item {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1150px){
+  .banner__list {
+    column-gap: 6.5rem;
+  }
+  .banner__item {
+    column-gap: 1rem;
+  }
+  .banner__item svg {
+    width: 4.5rem;
+  }
+  .banner__item span {
+    font-size: var(--h2-font-size);
+  }
+}

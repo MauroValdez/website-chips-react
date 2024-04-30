@@ -84,3 +84,71 @@
 .home__leaf-3 {
   left: -.75rem;
 }
+@media screen and (max-width: 340px){
+  .home__title {
+    font-size: 3rem;
+  }
+  .home__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .home__circle {
+    width: 250px;
+    height: 250px;
+  }
+  .home__subcircle {
+    width: 200px;
+    height: 200px;
+  }
+  .home__images .home__img {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 540px){
+  .home__container {
+    grid-template-columns: 370px;
+    justify-content: center;
+  }
+  .home__meat {
+    right: 1rem;
+  }
+}
+@media screen and (min-width: 1150px){
+  .home__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-top: 4rem;
+  }
+  .home__meat {
+    width: 80px;
+    top: 13rem;
+    right: 9rem;
+  }
+  .home__data {
+    text-align: initial;
+  }
+  .home__title {
+    margin-bottom: 1.5rem;
+  }
+  .home__description {
+    margin-bottom: 4rem;
+  }
+  .home__buttons {
+    justify-content: initial;
+    column-gap: 1.5rem;
+  }
+  .home__circle {
+    width: 500px;
+    height: 500px;
+  }
+  .home__subcircle {
+    width: 400px;
+    height: 400px;
+  }
+  .home__images .home__img {
+    width: 400px;
+  }
+  .home__images img {
+    width: 100px;
+  }
+}

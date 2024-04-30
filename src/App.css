@@ -121,3 +121,16 @@ ul {
   border: 3px solid var(--second-color);
   color: var(--second-color);
 }
+@media screen and (max-width: 340px) {
+  .section__title {
+    font-size: var(--h2-font-size);
+  }
+}
+@media screen and (min-width: 1150px){
+  .section {
+    padding-block: 7rem 2rem;
+  }
+  .section__title {
+    margin-bottom: 2rem;
+  }
+}

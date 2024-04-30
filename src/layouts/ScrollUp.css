@@ -18,3 +18,8 @@
 .show-scroll {
   bottom: 2.5rem;
 }
+@media screen and (min-width: 1150px){
+  .scrollup {
+    right: 5rem;
+  }
+}

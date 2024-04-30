@@ -14,21 +14,21 @@ import Contact from './layouts/Contact'
 import Footer from './layouts/Footer'
 import ScrollUp from './layouts/ScrollUp'
 function App() {
-    return (
-        <>
-            <Header />
-            <main className="main">
-                <Home />
-                <Favorites />
-                <Care />
-                <Banner />
-                <Products />
-                <Contact />
-                <Footer />
-                <ScrollUp />
-            </main>
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <main className="main">
+        <Home />
+        <Favorites />
+        <Care />
+        <Banner />
+        <Products />
+        <Contact />
+        <Footer />
+        <ScrollUp />
+      </main>
+    </>
+  )
 }
 
 export default App

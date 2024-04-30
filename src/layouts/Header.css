@@ -84,3 +84,29 @@
 .shadow-header {
   box-shadow: 0 2px 16px hsla(0, 0%, 0%, 0.15)
 }
+@media screen and (min-width: 540px){
+  .nav__list {
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1150px){
+  .nav {
+    height: 5rem ;
+  }
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+  .nav__link {
+    font-size: var(--normal-font-size);
+  }
+  .nav__menu {
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+  }
+  .nav__list {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+}
