@@ -12,6 +12,7 @@ import Banner from './layouts/Banner'
 import Products from './layouts/Products'
 import Contact from './layouts/Contact'
 import Footer from './layouts/Footer'
+import ScrollUp from './layouts/ScrollUp'
 function App() {
     return (
         <>
@@ -24,12 +25,8 @@ function App() {
                 <Products />
                 <Contact />
                 <Footer />
+                <ScrollUp />
             </main>
-            <section className="section"></section>
-            <section className="section"></section>
-            <section className="section"></section>
-            <section className="section"></section>
-            <section className="section"></section>
         </>
     )
 }
